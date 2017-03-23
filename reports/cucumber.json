@@ -1,0 +1,283 @@
+[
+  {
+    "keyword": "Feature",
+    "line": 2,
+    "name": "FHA Applicability based on Escrow, MI and Loan To Value(LTV)",
+    "tags": [],
+    "uri": "/home/saisuryak/350313/POC/nwregeress/features/escrow.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "FHA Loan to appear when loan has escrow and LTV below 80% and no Mortgage Insurance(MI)",
+        "tags": [],
+        "id": "fha-applicability-based-on-escrow,-mi-and-loan-to-value(ltv);fha-loan-to-appear-when-loan-has-escrow-and-ltv-below-80%-and-no-mortgage-insurance(mi)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on MVP Page and Loan Details are Loaded",
+            "result": {
+              "status": "passed",
+              "duration": 17
+            },
+            "line": 5,
+            "match": {
+              "location": "/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Escrow is present",
+            "result": {
+              "status": "passed",
+              "duration": 15416
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Escrow amount is Included",
+            "result": {
+              "status": "passed",
+              "duration": 5296
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Mortgage Insurance Not present",
+            "result": {
+              "status": "passed",
+              "duration": 2060
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Loan To Value is below 80%",
+            "result": {
+              "status": "passed",
+              "duration": 3243
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I run pricing",
+            "result": {
+              "status": "passed",
+              "duration": 2930
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "FHA Loan should be present",
+            "result": {
+              "status": "failed",
+              "duration": 2939,
+              "error_message": "Expected element <Section[name=pricing],Element[name=@pricing_table_data]> text to contain: \"3.125 0.000 $5,342.80 $675.60 $1,078.12 4.416 0.000\" - element was not found - Expected \"present\" but got: \"not present\"\n    at World.Then (/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:64:31)"
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:51"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "fha-applicability-based-on-escrow,-mi-and-loan-to-value(ltv)"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "abc",
+    "tags": [],
+    "uri": "/home/saisuryak/350313/POC/nwregeress/features/escrow1.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "FHA Loan to be present when loan includes Escrow and is currently escrowed and has borrower paid MI",
+        "tags": [],
+        "id": "abc;fha-loan-to-be-present-when-loan-includes-escrow-and-is-currently-escrowed-and-has-borrower-paid-mi",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on MVP Page and Loan Details are Loaded",
+            "result": {
+              "status": "passed",
+              "duration": 39
+            },
+            "line": 5,
+            "match": {
+              "location": "/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Escrow is present and is included",
+            "result": {
+              "status": "passed",
+              "duration": 15849
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Borrower Paid MI is present",
+            "result": {
+              "status": "passed",
+              "duration": 3724
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I run pricing",
+            "result": {
+              "status": "passed",
+              "duration": 2809
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "FHA Loan should be present",
+            "result": {
+              "status": "failed",
+              "duration": 2888,
+              "error_message": "Expected element <Section[name=pricing],Element[name=@pricing_table_data]> text to contain: \"3.125 0.000 $5,342.80 $675.60 $1,078.12 4.416 0.000\" - element was not found - Expected \"present\" but got: \"not present\"\n    at World.Then (/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:64:31)"
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:51"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "abc"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "xyz",
+    "tags": [],
+    "uri": "/home/saisuryak/350313/POC/nwregeress/features/escrow2.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "FHA Loan to be present when loan has Escrow and Borrower paid MI",
+        "tags": [],
+        "id": "xyz;fha-loan-to-be-present-when-loan-has-escrow-and-borrower-paid-mi",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on MVP Page and Loan Details are Loaded",
+            "result": {
+              "status": "passed",
+              "duration": 16
+            },
+            "line": 4,
+            "match": {
+              "location": "/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Escrow is present",
+            "result": {
+              "status": "passed",
+              "duration": 15620
+            },
+            "line": 5,
+            "match": {
+              "location": "/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Borrower Paid MI is present",
+            "result": {
+              "status": "passed",
+              "duration": 3761
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I run pricing",
+            "result": {
+              "status": "passed",
+              "duration": 2502
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "FHA Loan should be present",
+            "result": {
+              "status": "failed",
+              "duration": 2870,
+              "error_message": "Expected element <Section[name=pricing],Element[name=@pricing_table_data]> text to contain: \"3.125 0.000 $5,342.80 $675.60 $1,078.12 4.416 0.000\" - element was not found - Expected \"present\" but got: \"not present\"\n    at World.Then (/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:64:31)"
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/saisuryak/350313/POC/nwregeress/features/step_definitions/escrow.js:51"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "xyz"
+  }
+]

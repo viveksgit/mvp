@@ -1,0 +1,296 @@
+21:36:38.875 INFO - Selenium build info: version: '3.3.0', revision: 'b526bd5'
+21:36:38.875 INFO - Launching a standalone Selenium Server
+2017-03-21 21:36:38.894:INFO::main: Logging initialized @286ms to org.seleniumhq.jetty9.util.log.StdErrLog
+21:36:38.998 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
+21:36:38.998 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
+21:36:38.998 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+21:36:38.998 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+21:36:38.998 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+21:36:38.998 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+21:36:38.999 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
+2017-03-21 21:36:39.048:INFO:osjs.Server:main: jetty-9.2.20.v20161216
+2017-03-21 21:36:39.082:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@3bfdc050{/,null,AVAILABLE}
+2017-03-21 21:36:39.098:INFO:osjs.AbstractConnector:main: Started ServerConnector@39e127b4{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-03-21 21:36:39.099:INFO:osjs.Server:main: Started @491ms
+21:36:39.099 INFO - Selenium Server is up and running
+21:36:39.529 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+21:36:39.575 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=/home/saisuryak/350313/POC/nwregeress/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+21:36:39.597 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, phantomjs.binary.path=/home/saisuryak/350313/POC/nwregeress/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.27.440175 (9bc1d90b8bfa4dd181fbbf769a5eb5e575574320) on port 18228
+Only local connections are allowed.
+21:36:40.744 INFO - Detected dialect: OSS
+21:36:40.820 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=/home/saisuryak/350313/POC/nwregeress/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+21:36:44.849 INFO - Executing: [get: http://localhost?stub=FakeLoan])
+21:36:45.710 INFO - Done: [get: http://localhost?stub=FakeLoan]
+21:36:47.720 INFO - Executing: [find elements: By.cssSelector: html])
+21:36:47.756 INFO - Done: [find elements: By.cssSelector: html]
+21:36:47.762 INFO - Executing: [find child elements: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name="hasMI"]])
+21:36:47.795 INFO - Done: [find child elements: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name="hasMI"]]
+21:36:47.805 INFO - Executing: [find element: By.cssSelector: html])
+21:36:47.830 INFO - Done: [find element: By.cssSelector: html]
+21:36:47.835 INFO - Executing: [find child element: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectCurrentlyEscrowedStatus]])
+21:36:47.859 INFO - Done: [find child element: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectCurrentlyEscrowedStatus]]
+21:36:47.866 INFO - Executing: [click: 2 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectCurrentlyEscrowedStatus]]])
+21:36:47.968 INFO - Done: [click: 2 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectCurrentlyEscrowedStatus]]]
+21:36:49.475 INFO - Executing: [find element: By.cssSelector: html])
+21:36:49.485 INFO - Done: [find element: By.cssSelector: html]
+21:36:49.489 INFO - Executing: [find child element: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: .Currently_Escrowed_No])
+21:36:49.516 INFO - Done: [find child element: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: .Currently_Escrowed_No]
+21:36:49.551 INFO - Executing: [click: 3 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: .Currently_Escrowed_No]])
+21:36:49.707 INFO - Done: [click: 3 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: .Currently_Escrowed_No]]
+21:36:51.215 INFO - Executing: [find elements: By.cssSelector: html])
+21:36:51.224 INFO - Done: [find elements: By.cssSelector: html]
+21:36:51.231 INFO - Executing: [find child elements: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectCurrentlyEscrowedStatus]])
+21:36:51.253 INFO - Done: [find child elements: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectCurrentlyEscrowedStatus]]
+21:36:51.257 INFO - Executing: [get text: 2 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectCurrentlyEscrowedStatus]]])
+21:36:51.297 INFO - Done: [get text: 2 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectCurrentlyEscrowedStatus]]]
+21:36:51.303 INFO - Executing: [find element: By.cssSelector: html])
+21:36:51.313 INFO - Done: [find element: By.cssSelector: html]
+21:36:51.317 INFO - Executing: [find child element: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectEscrowStatus]])
+21:36:51.347 INFO - Done: [find child element: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectEscrowStatus]]
+21:36:51.350 INFO - Executing: [click: 4 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectEscrowStatus]]])
+21:36:51.443 INFO - Done: [click: 4 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectEscrowStatus]]]
+21:36:52.952 INFO - Executing: [find element: By.cssSelector: html])
+21:36:52.965 INFO - Done: [find element: By.cssSelector: html]
+21:36:52.968 INFO - Executing: [find child element: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: .Include_Escrow_Yes])
+21:36:52.994 INFO - Done: [find child element: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: .Include_Escrow_Yes]
+21:36:52.998 INFO - Executing: [click: 5 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: .Include_Escrow_Yes]])
+21:36:53.146 INFO - Done: [click: 5 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: .Include_Escrow_Yes]]
+21:36:54.655 INFO - Executing: [find elements: By.cssSelector: html])
+21:36:54.664 INFO - Done: [find elements: By.cssSelector: html]
+21:36:54.673 INFO - Executing: [find child elements: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectEscrowStatus]])
+21:36:54.696 INFO - Done: [find child elements: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectEscrowStatus]]
+21:36:54.701 INFO - Executing: [get text: 4 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectEscrowStatus]]])
+21:36:54.732 INFO - Done: [get text: 4 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectEscrowStatus]]]
+21:36:56.767 INFO - Executing: [find element: By.cssSelector: html])
+21:36:56.779 INFO - Done: [find element: By.cssSelector: html]
+21:36:56.784 INFO - Executing: [find child element: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectEscrowStatus]])
+21:36:56.797 INFO - Done: [find child element: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectEscrowStatus]]
+21:36:56.801 INFO - Executing: [click: 4 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectEscrowStatus]]])
+21:36:56.851 INFO - Done: [click: 4 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectEscrowStatus]]]
+21:36:58.357 INFO - Executing: [find element: By.cssSelector: html])
+21:36:58.368 INFO - Done: [find element: By.cssSelector: html]
+21:36:58.372 INFO - Executing: [find child element: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: .Include_Escrow_Yes])
+21:36:58.385 INFO - Done: [find child element: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: .Include_Escrow_Yes]
+21:36:58.388 INFO - Executing: [click: 6 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: .Include_Escrow_Yes]])
+21:36:58.532 INFO - Done: [click: 6 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: .Include_Escrow_Yes]]
+21:37:02.075 INFO - Executing: [find elements: By.cssSelector: html])
+21:37:02.088 INFO - Done: [find elements: By.cssSelector: html]
+21:37:02.095 INFO - Executing: [find child elements: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name="hasMI"]])
+21:37:02.105 INFO - Done: [find child elements: 0 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name="hasMI"]]
+21:37:04.165 INFO - Executing: [find element: By.cssSelector: [id=base_loan_information]])
+21:37:04.197 INFO - Done: [find element: By.cssSelector: [id=base_loan_information]]
+21:37:04.201 INFO - Executing: [find child element: 7 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]], By.cssSelector: input[id=loanAmount]])
+21:37:04.223 INFO - Done: [find child element: 7 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]], By.cssSelector: input[id=loanAmount]]
+21:37:04.231 INFO - Executing: [clear: 8 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]]] -> css selector: input[id=loanAmount]]])
+21:37:04.276 INFO - Done: [clear: 8 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]]] -> css selector: input[id=loanAmount]]]
+21:37:04.280 INFO - Executing: [find element: By.cssSelector: [id=base_loan_information]])
+21:37:04.295 INFO - Done: [find element: By.cssSelector: [id=base_loan_information]]
+21:37:04.301 INFO - Executing: [find child element: 7 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]], By.cssSelector: input[id=loanAmount]])
+21:37:04.326 INFO - Done: [find child element: 7 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]], By.cssSelector: input[id=loanAmount]]
+21:37:04.335 INFO - Executing: [send keys: 8 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]]] -> css selector: input[id=loanAmount]], [1, 2, 0, 0, 0, 0]])
+21:37:04.485 INFO - Done: [send keys: 8 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]]] -> css selector: input[id=loanAmount]], [1, 2, 0, 0, 0, 0]]
+21:37:04.489 INFO - Executing: [find element: By.cssSelector: [id=base_loan_information]])
+21:37:04.504 INFO - Done: [find element: By.cssSelector: [id=base_loan_information]]
+21:37:04.508 INFO - Executing: [find child element: 7 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]], By.cssSelector: input[id=estimatedPropertyValue]])
+21:37:04.560 INFO - Done: [find child element: 7 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]], By.cssSelector: input[id=estimatedPropertyValue]]
+21:37:04.565 INFO - Executing: [clear: 9 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]]] -> css selector: input[id=estimatedPropertyValue]]])
+21:37:04.718 INFO - Done: [clear: 9 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]]] -> css selector: input[id=estimatedPropertyValue]]]
+21:37:04.725 INFO - Executing: [find element: By.cssSelector: [id=base_loan_information]])
+21:37:04.735 INFO - Done: [find element: By.cssSelector: [id=base_loan_information]]
+21:37:04.739 INFO - Executing: [find child element: 7 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]], By.cssSelector: input[id=estimatedPropertyValue]])
+21:37:04.769 INFO - Done: [find child element: 7 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]], By.cssSelector: input[id=estimatedPropertyValue]]
+21:37:04.773 INFO - Executing: [send keys: 9 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]]] -> css selector: input[id=estimatedPropertyValue]], [2, 0, 0, 0, 0, 0]])
+21:37:04.874 INFO - Done: [send keys: 9 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]]] -> css selector: input[id=estimatedPropertyValue]], [2, 0, 0, 0, 0, 0]]
+21:37:04.877 INFO - Executing: [find element: By.cssSelector: [id=base_loan_information]])
+21:37:04.905 INFO - Done: [find element: By.cssSelector: [id=base_loan_information]]
+21:37:04.910 INFO - Executing: [find child element: 7 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]], By.cssSelector: input[id=loanAmount]])
+21:37:04.930 INFO - Done: [find child element: 7 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]], By.cssSelector: input[id=loanAmount]]
+21:37:04.935 INFO - Executing: [click: 8 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]]] -> css selector: input[id=loanAmount]]])
+21:37:05.106 INFO - Done: [click: 8 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: [id=base_loan_information]]] -> css selector: input[id=loanAmount]]]
+21:37:07.386 INFO - Executing: [find elements: By.cssSelector: .pricing_button>button])
+21:37:07.412 INFO - Done: [find elements: By.cssSelector: .pricing_button>button]
+21:37:07.414 INFO - Executing: [find element: By.cssSelector: .pricing_button>button])
+21:37:07.436 INFO - Done: [find element: By.cssSelector: .pricing_button>button]
+21:37:07.440 INFO - Executing: [click: 10 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: .pricing_button>button]])
+21:37:07.740 INFO - Done: [click: 10 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: .pricing_button>button]]
+21:37:07.752 INFO - Executing: [find elements: By.cssSelector: #pricing_contents])
+21:37:08.300 INFO - Done: [find elements: By.cssSelector: #pricing_contents]
+21:37:10.359 INFO - Executing: [find element: By.xpath: //span[text()="FHA"]])
+21:37:10.404 INFO - Done: [find element: By.xpath: //span[text()="FHA"]]
+21:37:10.407 INFO - Executing: [click: 12 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> xpath: //span[text()="FHA"]]])
+21:37:10.500 INFO - Done: [click: 12 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> xpath: //span[text()="FHA"]]]
+21:37:10.502 INFO - Executing: [find element: By.xpath: //span[text()="30 Year Fixed"]])
+21:37:10.602 INFO - Done: [find element: By.xpath: //span[text()="30 Year Fixed"]]
+21:37:10.606 INFO - Executing: [click: 13 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> xpath: //span[text()="30 Year Fixed"]]])
+21:37:10.805 INFO - Done: [click: 13 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> xpath: //span[text()="30 Year Fixed"]]]
+21:37:10.810 INFO - Executing: [find elements: By.cssSelector: #pricing_contents])
+21:37:10.833 INFO - Done: [find elements: By.cssSelector: #pricing_contents]
+21:37:10.837 INFO - Executing: [find child elements: 11 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: #pricing_contents], By.cssSelector: .rate_table_data > div:nth-child(2)])
+21:37:10.895 INFO - Done: [find child elements: 11 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: #pricing_contents], By.cssSelector: .rate_table_data > div:nth-child(2)]
+21:37:10.899 INFO - Executing: [find element: By.cssSelector: .rate_table_data > tr:nth-child(1) button])
+21:37:10.945 INFO - Done: [find element: By.cssSelector: .rate_table_data > tr:nth-child(1) button]
+21:37:10.948 INFO - Executing: [click: 14 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: .rate_table_data > tr:nth-child(1) button]])
+21:37:11.204 INFO - Done: [click: 14 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: .rate_table_data > tr:nth-child(1) button]]
+21:37:11.207 INFO - Executing: [find elements: By.cssSelector: #paymentsAndBenefits])
+21:37:11.243 INFO - Done: [find elements: By.cssSelector: #paymentsAndBenefits]
+21:37:17.375 INFO - Executing: [get: http://localhost?stub=FakeLoan])
+21:37:18.125 INFO - Done: [get: http://localhost?stub=FakeLoan]
+21:37:20.131 INFO - Executing: [find elements: By.cssSelector: html])
+21:37:20.156 INFO - Done: [find elements: By.cssSelector: html]
+21:37:20.159 INFO - Executing: [find child elements: 16 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name="hasMI"]])
+21:37:20.188 INFO - Done: [find child elements: 16 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name="hasMI"]]
+21:37:20.192 INFO - Executing: [find element: By.cssSelector: html])
+21:37:20.219 INFO - Done: [find element: By.cssSelector: html]
+21:37:20.221 INFO - Executing: [find child element: 16 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectEscrowStatus]])
+21:37:20.245 INFO - Done: [find child element: 16 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectEscrowStatus]]
+21:37:20.248 INFO - Executing: [click: 18 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectEscrowStatus]]])
+21:37:20.355 INFO - Done: [click: 18 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectEscrowStatus]]]
+21:37:21.861 INFO - Executing: [find element: By.cssSelector: html])
+21:37:21.875 INFO - Done: [find element: By.cssSelector: html]
+21:37:21.879 INFO - Executing: [find child element: 16 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: .Include_Escrow_Yes])
+21:37:21.902 INFO - Done: [find child element: 16 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: .Include_Escrow_Yes]
+21:37:21.907 INFO - Executing: [click: 19 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: .Include_Escrow_Yes]])
+21:37:22.101 INFO - Done: [click: 19 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: .Include_Escrow_Yes]]
+21:37:23.607 INFO - Executing: [find elements: By.cssSelector: html])
+21:37:23.623 INFO - Done: [find elements: By.cssSelector: html]
+21:37:23.631 INFO - Executing: [find child elements: 16 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectEscrowStatus]])
+21:37:23.664 INFO - Done: [find child elements: 16 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectEscrowStatus]]
+21:37:23.668 INFO - Executing: [get text: 18 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectEscrowStatus]]])
+21:37:23.704 INFO - Done: [get text: 18 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectEscrowStatus]]]
+21:37:23.707 INFO - Executing: [find elements: By.cssSelector: html])
+21:37:23.716 INFO - Done: [find elements: By.cssSelector: html]
+21:37:23.722 INFO - Executing: [find child elements: 16 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectCurrentlyEscrowedStatus]])
+21:37:23.745 INFO - Done: [find child elements: 16 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectCurrentlyEscrowedStatus]]
+21:37:23.748 INFO - Executing: [get text: 20 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectCurrentlyEscrowedStatus]]])
+21:37:23.778 INFO - Done: [get text: 20 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectCurrentlyEscrowedStatus]]]
+21:37:23.782 INFO - Executing: [find element: By.cssSelector: html])
+21:37:23.793 INFO - Done: [find element: By.cssSelector: html]
+21:37:23.796 INFO - Executing: [find child element: 16 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectCurrentlyEscrowedStatus]])
+21:37:23.824 INFO - Done: [find child element: 16 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectCurrentlyEscrowedStatus]]
+21:37:23.827 INFO - Executing: [click: 20 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectCurrentlyEscrowedStatus]]])
+21:37:23.906 INFO - Done: [click: 20 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectCurrentlyEscrowedStatus]]]
+21:37:25.416 INFO - Executing: [find element: By.cssSelector: html])
+21:37:25.429 INFO - Done: [find element: By.cssSelector: html]
+21:37:25.434 INFO - Executing: [find child element: 16 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: .Currently_Escrowed_Yes])
+21:37:25.457 INFO - Done: [find child element: 16 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: .Currently_Escrowed_Yes]
+21:37:25.460 INFO - Executing: [click: 21 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: .Currently_Escrowed_Yes]])
+21:37:25.615 INFO - Done: [click: 21 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: .Currently_Escrowed_Yes]]
+21:37:27.124 INFO - Executing: [find elements: By.cssSelector: html])
+21:37:27.141 INFO - Done: [find elements: By.cssSelector: html]
+21:37:27.143 INFO - Executing: [find child elements: 16 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectCurrentlyEscrowedStatus]])
+21:37:27.154 INFO - Done: [find child elements: 16 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectCurrentlyEscrowedStatus]]
+21:37:27.156 INFO - Executing: [get text: 20 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectCurrentlyEscrowedStatus]]])
+21:37:27.173 INFO - Done: [get text: 20 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectCurrentlyEscrowedStatus]]]
+21:37:29.197 INFO - Executing: [find element: By.cssSelector: html])
+21:37:29.216 INFO - Done: [find element: By.cssSelector: html]
+21:37:29.220 INFO - Executing: [find child element: 16 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name="hasMI"]])
+21:37:29.241 INFO - Done: [find child element: 16 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name="hasMI"]]
+21:37:29.245 INFO - Executing: [click: 17 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name="hasMI"]]])
+21:37:29.398 INFO - Done: [click: 17 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name="hasMI"]]]
+21:37:32.926 INFO - Executing: [find elements: By.cssSelector: .pricing_button>button])
+21:37:32.953 INFO - Done: [find elements: By.cssSelector: .pricing_button>button]
+21:37:32.957 INFO - Executing: [find element: By.cssSelector: .pricing_button>button])
+21:37:32.981 INFO - Done: [find element: By.cssSelector: .pricing_button>button]
+21:37:32.985 INFO - Executing: [click: 22 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: .pricing_button>button]])
+21:37:33.182 INFO - Done: [click: 22 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: .pricing_button>button]]
+21:37:33.185 INFO - Executing: [find elements: By.cssSelector: #pricing_contents])
+21:37:33.712 INFO - Done: [find elements: By.cssSelector: #pricing_contents]
+21:37:35.777 INFO - Executing: [find element: By.xpath: //span[text()="FHA"]])
+21:37:35.806 INFO - Done: [find element: By.xpath: //span[text()="FHA"]]
+21:37:35.808 INFO - Executing: [click: 24 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> xpath: //span[text()="FHA"]]])
+21:37:35.944 INFO - Done: [click: 24 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> xpath: //span[text()="FHA"]]]
+21:37:35.949 INFO - Executing: [find element: By.xpath: //span[text()="30 Year Fixed"]])
+21:37:36.006 INFO - Done: [find element: By.xpath: //span[text()="30 Year Fixed"]]
+21:37:36.014 INFO - Executing: [click: 25 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> xpath: //span[text()="30 Year Fixed"]]])
+21:37:36.189 INFO - Done: [click: 25 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> xpath: //span[text()="30 Year Fixed"]]]
+21:37:36.193 INFO - Executing: [find elements: By.cssSelector: #pricing_contents])
+21:37:36.204 INFO - Done: [find elements: By.cssSelector: #pricing_contents]
+21:37:36.207 INFO - Executing: [find child elements: 23 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: #pricing_contents], By.cssSelector: .rate_table_data > div:nth-child(2)])
+21:37:36.246 INFO - Done: [find child elements: 23 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: #pricing_contents], By.cssSelector: .rate_table_data > div:nth-child(2)]
+21:37:36.250 INFO - Executing: [find element: By.cssSelector: .rate_table_data > tr:nth-child(1) button])
+21:37:36.288 INFO - Done: [find element: By.cssSelector: .rate_table_data > tr:nth-child(1) button]
+21:37:36.292 INFO - Executing: [click: 26 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: .rate_table_data > tr:nth-child(1) button]])
+21:37:36.401 INFO - Done: [click: 26 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: .rate_table_data > tr:nth-child(1) button]]
+21:37:36.405 INFO - Executing: [find elements: By.cssSelector: #paymentsAndBenefits])
+21:37:36.606 INFO - Done: [find elements: By.cssSelector: #paymentsAndBenefits]
+21:37:42.679 INFO - Executing: [get: http://localhost?stub=FakeLoan])
+21:37:43.414 INFO - Done: [get: http://localhost?stub=FakeLoan]
+21:37:45.431 INFO - Executing: [find elements: By.cssSelector: html])
+21:37:45.441 INFO - Done: [find elements: By.cssSelector: html]
+21:37:45.445 INFO - Executing: [find child elements: 28 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name="hasMI"]])
+21:37:45.474 INFO - Done: [find child elements: 28 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name="hasMI"]]
+21:37:45.478 INFO - Executing: [find element: By.cssSelector: html])
+21:37:45.489 INFO - Done: [find element: By.cssSelector: html]
+21:37:45.491 INFO - Executing: [find child element: 28 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectCurrentlyEscrowedStatus]])
+21:37:45.513 INFO - Done: [find child element: 28 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectCurrentlyEscrowedStatus]]
+21:37:45.516 INFO - Executing: [click: 30 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectCurrentlyEscrowedStatus]]])
+21:37:45.603 INFO - Done: [click: 30 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectCurrentlyEscrowedStatus]]]
+21:37:47.113 INFO - Executing: [find element: By.cssSelector: html])
+21:37:47.124 INFO - Done: [find element: By.cssSelector: html]
+21:37:47.127 INFO - Executing: [find child element: 28 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: .Currently_Escrowed_No])
+21:37:47.168 INFO - Done: [find child element: 28 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: .Currently_Escrowed_No]
+21:37:47.171 INFO - Executing: [click: 31 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: .Currently_Escrowed_No]])
+21:37:47.241 INFO - Done: [click: 31 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: .Currently_Escrowed_No]]
+21:37:48.749 INFO - Executing: [find elements: By.cssSelector: html])
+21:37:48.763 INFO - Done: [find elements: By.cssSelector: html]
+21:37:48.767 INFO - Executing: [find child elements: 28 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectCurrentlyEscrowedStatus]])
+21:37:48.794 INFO - Done: [find child elements: 28 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectCurrentlyEscrowedStatus]]
+21:37:48.798 INFO - Executing: [get text: 30 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectCurrentlyEscrowedStatus]]])
+21:37:48.829 INFO - Done: [get text: 30 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectCurrentlyEscrowedStatus]]]
+21:37:48.832 INFO - Executing: [find element: By.cssSelector: html])
+21:37:48.846 INFO - Done: [find element: By.cssSelector: html]
+21:37:48.854 INFO - Executing: [find child element: 28 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectEscrowStatus]])
+21:37:48.877 INFO - Done: [find child element: 28 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectEscrowStatus]]
+21:37:48.880 INFO - Executing: [click: 32 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectEscrowStatus]]])
+21:37:48.959 INFO - Done: [click: 32 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectEscrowStatus]]]
+21:37:50.468 INFO - Executing: [find element: By.cssSelector: html])
+21:37:50.481 INFO - Done: [find element: By.cssSelector: html]
+21:37:50.483 INFO - Executing: [find child element: 28 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: .Include_Escrow_Yes])
+21:37:50.509 INFO - Done: [find child element: 28 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: .Include_Escrow_Yes]
+21:37:50.511 INFO - Executing: [click: 33 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: .Include_Escrow_Yes]])
+21:37:50.676 INFO - Done: [click: 33 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: .Include_Escrow_Yes]]
+21:37:52.185 INFO - Executing: [find elements: By.cssSelector: html])
+21:37:52.200 INFO - Done: [find elements: By.cssSelector: html]
+21:37:52.202 INFO - Executing: [find child elements: 28 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectEscrowStatus]])
+21:37:52.228 INFO - Done: [find child elements: 28 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name=selectEscrowStatus]]
+21:37:52.231 INFO - Executing: [get text: 32 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectEscrowStatus]]])
+21:37:52.266 INFO - Done: [get text: 32 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name=selectEscrowStatus]]]
+21:37:54.298 INFO - Executing: [find element: By.cssSelector: html])
+21:37:54.317 INFO - Done: [find element: By.cssSelector: html]
+21:37:54.326 INFO - Executing: [find child element: 28 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name="hasMI"]])
+21:37:54.348 INFO - Done: [find child element: 28 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html], By.cssSelector: [name="hasMI"]]
+21:37:54.353 INFO - Executing: [click: 29 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name="hasMI"]]])
+21:37:54.541 INFO - Done: [click: 29 [[[[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: html]] -> css selector: [name="hasMI"]]]
+21:37:58.061 INFO - Executing: [find elements: By.cssSelector: .pricing_button>button])
+21:37:58.085 INFO - Done: [find elements: By.cssSelector: .pricing_button>button]
+21:37:58.088 INFO - Executing: [find element: By.cssSelector: .pricing_button>button])
+21:37:58.113 INFO - Done: [find element: By.cssSelector: .pricing_button>button]
+21:37:58.115 INFO - Executing: [click: 34 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: .pricing_button>button]])
+21:37:58.314 INFO - Done: [click: 34 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: .pricing_button>button]]
+21:37:58.317 INFO - Executing: [find elements: By.cssSelector: #pricing_contents])
+21:37:58.551 INFO - Done: [find elements: By.cssSelector: #pricing_contents]
+21:38:00.612 INFO - Executing: [find element: By.xpath: //span[text()="FHA"]])
+21:38:00.662 INFO - Done: [find element: By.xpath: //span[text()="FHA"]]
+21:38:00.666 INFO - Executing: [click: 36 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> xpath: //span[text()="FHA"]]])
+21:38:00.775 INFO - Done: [click: 36 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> xpath: //span[text()="FHA"]]]
+21:38:00.782 INFO - Executing: [find element: By.xpath: //span[text()="30 Year Fixed"]])
+21:38:00.877 INFO - Done: [find element: By.xpath: //span[text()="30 Year Fixed"]]
+21:38:00.884 INFO - Executing: [click: 37 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> xpath: //span[text()="30 Year Fixed"]]])
+21:38:01.028 INFO - Done: [click: 37 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> xpath: //span[text()="30 Year Fixed"]]]
+21:38:01.033 INFO - Executing: [find elements: By.cssSelector: #pricing_contents])
+21:38:01.049 INFO - Done: [find elements: By.cssSelector: #pricing_contents]
+21:38:01.088 INFO - Executing: [find child elements: 35 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: #pricing_contents], By.cssSelector: .rate_table_data > div:nth-child(2)])
+21:38:01.150 INFO - Done: [find child elements: 35 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: #pricing_contents], By.cssSelector: .rate_table_data > div:nth-child(2)]
+21:38:01.171 INFO - Executing: [find element: By.cssSelector: .rate_table_data > tr:nth-child(1) button])
+21:38:01.197 INFO - Done: [find element: By.cssSelector: .rate_table_data > tr:nth-child(1) button]
+21:38:01.199 INFO - Executing: [click: 38 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: .rate_table_data > tr:nth-child(1) button]])
+21:38:01.268 INFO - Done: [click: 38 [[ChromeDriver: chrome on LINUX (ada347937bc99a035cb1f29718a3487a)] -> css selector: .rate_table_data > tr:nth-child(1) button]]
+21:38:01.270 INFO - Executing: [find elements: By.cssSelector: #paymentsAndBenefits])
+21:38:01.423 INFO - Done: [find elements: By.cssSelector: #paymentsAndBenefits]
+21:38:01.504 INFO - Executing: [delete session: 907a1365-0061-46e9-a29f-f162888c4d8b])
+21:38:01.598 INFO - Done: [delete session: 907a1365-0061-46e9-a29f-f162888c4d8b]
